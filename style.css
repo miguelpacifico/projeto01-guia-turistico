@@ -2,3 +2,143 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  line-height: 120%;
+  font-size: 16px;
+  color: #333333;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+h1,
+h2,
+h3 {
+  color: #1b1b1b;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 49px;
+  margin: 8px 0 40px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 2px 0 8px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 38px;
+  margin: 20px 0 0 10px;
+}
+
+.headline {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #e1624f;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.text-blue {
+  color: #0c51a7;
+}
+
+.text-purple {
+  color: #591b98;
+}
+
+.text-pink {
+  color: #e5245e;
+}
+
+.text-orange {
+  color: #e95e10;
+}
+
+main {
+  box-sizing: border-box;
+  max-width: 1120px;
+  margin: 120px auto 88px;
+}
+
+main img {
+  max-width: 1120px;
+  border-radius: 1.75rem;
+}
+
+section ul {
+  list-style-position: inside;
+}
+
+/* Principal */
+
+#principal p {
+  font-style: italic;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* Destinations */
+#destinations .info {
+  margin: 40px 0;
+}
+
+#destinations article {
+  margin: 40px 0;
+}
+
+#destinations article h3 + p {
+  margin-bottom: 30px;
+}
+
+#destinations article img {
+  margin-bottom: 1.25rem;
+}
+
+#destinations article h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+#destinations article ul li {
+  color: var(--text-secondary-color);
+  font-weight: 700;
+}
+
+/* About */
+#about {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  font-family: "Alice", sans-serif;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+footer {
+  width: 100%;
+  align-items: center;
+}
